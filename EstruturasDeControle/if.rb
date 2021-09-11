@@ -1,6 +1,7 @@
 day = 'Sunday'
+lunch = 'Normal'
 
-if day == 'Sunday'
+if day != 'Sunday'
   lunch = 'Special'
 end
 
