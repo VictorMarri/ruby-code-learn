@@ -12,6 +12,7 @@ loop do
   option = gets.chomp.to_i
 
   if option == 1
+
     print 'Digite o ano de nascimento: '
     ano_de_nascimento = gets.chomp.to_i
     print 'Digite o ano atual em que estamos: '
@@ -19,6 +20,7 @@ loop do
     idade = ano_atual - ano_de_nascimento
     result = "Quem nasceu no ano de #{ano_de_nascimento}, tem agora #{idade} anos"
     print result
+    
   elsif option == 0
     break if option == 0
   else

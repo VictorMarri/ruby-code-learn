@@ -44,8 +44,10 @@ loop do
     else
       resultado = 'Nenhuma das opções escolhidas, por favor, tente novamente.'
     end
+
     resultado = "A #{opcao_de_operacao} entre os numeros #{numero1} e #{numero2} resulta em: #{resultado}"
     print resultado
+    
   elsif opcao == 0
     break
   else
