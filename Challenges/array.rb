@@ -12,9 +12,9 @@ i = 1
   i += 1
 end
 
-array.each do |a|
-  result = a ** 2
-  puts "O Resultado do numero #{a} elevado a segunda potência é #{result}"
+array.each do |numero_da_posicao|
+  result = numero_da_posicao ** 2
+  puts "O Resultado do numero #{numero_da_posicao} elevado a segunda potência é #{result}"
 end
 
 
