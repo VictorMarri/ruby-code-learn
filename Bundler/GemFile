@@ -1,0 +1,6 @@
+#Em vez de ficar instalando gems uma por uma, podemos usar as bundles, que vao instalar todas as que precisamos deu ma vez só 
+#Ai para instalar as dependencias, é só rodar a bundle
+
+source 'https://rubygems.org' #DE ONDE VÃO VIR A GEMS
+
+gem 'os' #Gem que eu quero instalar
