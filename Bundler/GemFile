@@ -4,3 +4,4 @@
 source 'https://rubygems.org' #DE ONDE VÃO VIR A GEMS
 
 gem 'os' #Gem que eu quero instalar
+gem 'cpf_cnpj', '~> 0.5.0'
