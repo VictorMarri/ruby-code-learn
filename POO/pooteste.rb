@@ -1,7 +1,6 @@
 class Animal
 
-  attr_reader :nome
-  attr_writer :nome
+  attr_accessor :nome
   attr_accessor :especie
 
   def initialize(nome, especie)
